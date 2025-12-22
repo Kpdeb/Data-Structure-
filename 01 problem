@@ -1,1 +1,22 @@
+#wap in python to find the largest of the n number entered in the array using pointer 
+n =int (input ("enter the number of elements :"))
 
+arr  = []
+for i in range (n):
+    value = int(input(f"Enter elements{i+1}: "))
+    arr.append(value)
+
+largest = arr[0]
+ptr =0
+
+#find the largest number 
+for i in  range (1,n):
+    if arr[i]>largest :
+        largest = arr[i]
+        ptr =i
+
+#output 
+print ("\nArray elements:",arr)
+print ("largest element:",largest )
+print ("position ",ptr )
+print ("position (1-based :)",ptr+1)
