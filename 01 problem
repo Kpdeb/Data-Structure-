@@ -1,4 +1,4 @@
-#wap in python to find the largest of the n number entered in the array using pointer 
+#wap in python to find the largest of the n number entered in the array using reference of pointer
 n =int (input ("enter the number of elements :"))
 
 arr  = []
@@ -20,3 +20,17 @@ print ("\nArray elements:",arr)
 print ("largest element:",largest )
 print ("position ",ptr )
 print ("position (1-based :)",ptr+1)
+
+#output :
+enter the number of elements :5 
+Enter elements1: 3
+Enter elements2: 4
+Enter elements3: 5
+Enter elements4: 2
+Enter elements5: 7
+
+Array elements: [3, 4, 5, 2, 7]
+largest element: 7
+position  4
+position (1-based :) 5
+PS D:\python>
