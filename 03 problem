@@ -1,1 +1,17 @@
+write a program in python to enter the detail from the student like roll no ,name,dob,course,fee,email .
+
+roll_no= int(input ("enter the roll no:"))
+name = input ("enter the name :")
+dob = int (input ("enter the DOB :"))
+course = input ("enter the course :")
+fee= float (input ("enter the course fee :"))
+email= input ("enter the email : ")
+
+print("\n---------student information----------")
+print("roll number:",roll_no)
+print("name :",name )
+print("date of birth :",dob)
+print("course :",course )
+print("course fee :",fee)
+print("email id :",email)
 
