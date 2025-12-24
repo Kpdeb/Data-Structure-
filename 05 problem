@@ -11,3 +11,16 @@ for num in arr :
         max_element = num
 
 print ("Maximum element in the array =",max_element)
+
+
+
+
+
+output :
+enter the number of element :5
+enter the elements 1:4
+enter the elements 2:3
+enter the elements 3:6
+enter the elements 4:1
+enter the elements 5:2
+Maximum element in the array = 6
