@@ -1,1 +1,12 @@
+write a program to enter the distance of the two points and then find the distance between them :
+import math
+x1= float (input("enter  x1:"))
+y1= float (input ("enter y2:"))
+
+x2=float (input ("enter x2 :"))
+y2 = float (input ("enter y2:"))
+
+distance = math.sqrt((x2-x1)**2+(y2-y1)**2)
+
+print ("distance between the two pointer =",distance )
 
