@@ -1,1 +1,12 @@
+n = int(input ("enter the number of element :"))
+arr=[]
+for i in range (n):
+    element = int(input(f"enter the elements {i+1}:"))
+    arr.append(element)
+max_element = arr[0]
 
+for num in arr :
+    if num>max_element:
+        max_element = num
+
+print ("Maximum element in the array =",max_element)
