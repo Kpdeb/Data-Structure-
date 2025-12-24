@@ -10,3 +10,13 @@ while start< end :
     start += 1 
     end -= 1 
 print ("erversed array :", arr)
+
+
+
+
+
+
+output :
+Enter the number of elements :4
+enter the elements :3 4 5 6 
+erversed array : [6, 5, 4, 3]
