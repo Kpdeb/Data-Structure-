@@ -15,3 +15,7 @@ def second_largest(arr):
         print("No second largest element")
     else:
         print("Second largest number is:", second)
+
+
+
+output :
