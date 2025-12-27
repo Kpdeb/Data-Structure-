@@ -30,3 +30,9 @@ int main() {
     printf("NULL");
 
     return 0;
+
+
+
+output :
+
+10->20->30->NULL
