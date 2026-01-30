@@ -18,3 +18,7 @@ def lengthOfLongestSubstring(s):
 
     return max_len
 
+output :
+Input: s = "abcabcbb"
+Output: 3
+Explanation: "abc"
